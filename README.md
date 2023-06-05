@@ -1,6 +1,6 @@
 # DeepLearning
 
-Image segmentation	3
+Image segmentation	3 \n
 Dataset	3
 Data augmentation	3
 Unet	3
