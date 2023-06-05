@@ -1,8 +1,8 @@
 ************************
 COME ADDESTRARE LA UNEXT
 ************************
-Per configurare ambiente anaconda prima ho lanciato il comando per il training
-e manmano che mi dava errore facevo pip install nome_libreria
+Per configurare l'ambiente anaconda, prima ho lanciato il comando per il training
+e manmano che mi restituiva l'errore eseguivo pip install nome_libreria
 
 ***************
 La prima volta:
@@ -21,11 +21,11 @@ conda activate unext
 spostarsi nella directory di dove si trova l'architettura
 lanciare script sotto
 
-******************************************************************************
 python train.py --dataset C:\\Users\\MATTEO\\Desktop\\Programmi\\Python\\DeepLearning\\ProgettoDeep\\DsDL --arch UNext --name prova1 --img_ext .tif --mask_ext .tif --lr 0.0001 --epochs 20 --input_w 256 --input_h 256 --b 8
 
+******************************************************************************
 C:\\Users\\MATTEO\\Desktop\\Programmi\\Python\\DeepLearning\\ProgettoDeep\\DsDL=
-percorso del dataset mac deve avere questa struttura:
+percorso del dataset che deve avere per questa struttura:
 ds
 ' '-->images
 '  '-->*.tif
